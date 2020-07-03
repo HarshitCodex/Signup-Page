@@ -1,0 +1,26 @@
+<div id="outer">
+    <div id="container">
+        <h1 style=" margin-bottom: 40px; "> {{title}} </h1>
+
+        <div class="editText" *ngFor="let entry of textEntries">
+            <label for="{{entry}}">{{entry}}
+                <input type="text" name="input" placeholder="{{entry}}" class="editInside" value="" id="{{entry}}">
+            </label>
+        </div>
+
+        <div class="editText" *ngFor="let entry of passwordEntries">
+            <label>
+                {{entry}}
+                <input type="password" name="input" placeholder="{{entry}}" class="editInside" value="" id="{{entry}}">
+            </label>
+        </div>
+
+        <div class="dates" *ngFor="let entry of dateEntries">
+            <label for="{{entry}}">
+                {{entry}}
+                <input type="date" name="input" id="{{entry}}" value="">
+            </label>
+        </div>
+        <button id="signup-btn" (click)="signupClicked()">Sign Up</button>
+    </div>
+</div>

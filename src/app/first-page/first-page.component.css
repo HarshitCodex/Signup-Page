@@ -1,0 +1,52 @@
+#container {
+    background-color: darkblue;
+    margin: 5% auto;
+    width: 40%;
+    min-width: 400px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px yellow;
+    text-shadow: 2px 2px 4px #000000;
+}
+h1{
+    color: chartreuse;
+}
+label{
+    color: rgb(92, 245, 4);
+    text-transform: capitalize;
+    text-shadow: 2px 2px 4px black;
+}
+.editText {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 90%;
+    margin-top: 2%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+button {
+    color: greenyellow;
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: black;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: darkorange;
+    height: 41px;
+}
+
+.dates {
+}
+
+#signup-btn {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
